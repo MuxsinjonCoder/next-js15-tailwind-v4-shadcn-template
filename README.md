@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### ✅ `README.md` (For Template App)
 
-## Getting Started
+````md
+# Next.js Template with Tailwind CSS & shadcn/ui
 
-First, run the development server:
+This is a modern and clean boilerplate built with:
+
+- ⚡ [Next.js](https://nextjs.org) – The React Framework
+- 🎨 [Tailwind CSS](https://tailwindcss.com) – Utility-first CSS framework
+- 🧩 [shadcn/ui](https://ui.shadcn.com) – Beautiful, customizable UI components
+
+> Perfect for building modern web apps with speed and consistency.
+
+---
+
+## 🚀 Getting Started
+
+First, clone the repo and install dependencies:
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/MuxsinjonCoder/next-js15-tailwind-v4-shadcn-template.git my-app
+cd my-app
+yarn install
+```
+````
+
+Then, run the development server:
+
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```bash
+app/                # App router (Next.js 13+)
+components/         # Reusable UI components (with shadcn/ui)
+lib/                # Utility functions and helpers
+styles/             # Global styles and Tailwind config
+public/             # Static files
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧱 Included Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ App Router (Next.js 13+)
+- ✅ Tailwind CSS with custom config
+- ✅ shadcn/ui setup and configured
+- ✅ Dark mode support
+- ✅ Utility-first and accessible component structure
+- ✅ Prettier & ESLint configured
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧩 UI Components (shadcn/ui)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To add a new component:
+
+```bash
+npx shadcn-ui@latest add button
+```
+
+You can customize components in the `components/ui/` folder after installation.
+
+---
+
+## 🛠️ Scripts
+
+| Command       | Description               |
+| ------------- | ------------------------- |
+| `yarn dev`    | Run development server    |
+| `yarn build`  | Create production build   |
+| `yarn lint`   | Run linting               |
+| `yarn format` | Format code with Prettier |
+
+---
+
+## 📦 Deploy
+
+This template is ready for deployment on platforms like:
+
+- [Vercel](https://vercel.com)
+- [Netlify](https://netlify.com)
+
+For Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+---
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [shadcn/ui Docs](https://ui.shadcn.com/docs)
+
+---
+
+## 🧑‍💻 Author
+
+Built with ❤️ by Muxsinjon(https://github.com/MuxsinjonCoder)
+
+---
+
+## 📝 License
+
+MIT © [Your Name](https://github.com/MuxsinjonCoder)
