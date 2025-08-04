@@ -8,9 +8,15 @@ export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
     plugins: { js },
-    extends: ["js/recommended"],
+    extends: [
+      "next",
+      "next/core-web-vitals",
+      "plugin:@typescript-eslint/recommended",
+    ],
     rules: {
-      quotes: "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "react/react-in-jsx-scope": "off",
     },
   },
   {
